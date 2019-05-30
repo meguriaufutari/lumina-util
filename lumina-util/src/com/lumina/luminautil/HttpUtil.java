@@ -12,7 +12,7 @@ import java.net.URL;
  *
  */
 public class HttpUtil {
-	public static String sendPostJson(String url, String message, String contentType) throws IOException {
+	public static String sendPostRequest(String url, String message, String contentType) throws IOException {
 		DataOutputStream out = null;
 		BufferedReader in = null;
 		HttpURLConnection con = null;
